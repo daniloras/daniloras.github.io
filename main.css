@@ -258,6 +258,9 @@ h5 {
   border-right: none;
 }
 @media (max-width: 481px) {
+  body {
+    background-color: #1c202d;
+  }
   .wrapper::before {
     background-image: none;
     background-color: #1c202d;
