@@ -258,7 +258,10 @@ h5 {
   border-right: none;
 }
 @media (max-width: 481px) {
-  
+  .wrapper::before {
+    background-image: none;
+    background-color: #1c202d;
+  } 
   .location {
     display: block;
   }
