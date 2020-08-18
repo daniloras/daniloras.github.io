@@ -58,7 +58,8 @@ body {
   border-radius: 8px;
   -webkit-box-shadow: 0 4px 1px rgba(0,0,0,0.1);
   box-shadow: 0 4px 1px rgba(0,0,0,0.1);
-  width: 380px;
+  min-width: 330px;
+  max-width: 680px;
   background: #fff;
   text-align: center;
   -webkit-box-sizing: border-box;
@@ -118,10 +119,18 @@ h5 {
   color: #707070;
   margin-bottom: 2px;
 }
+.location-center {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+}
 .location {
+  display: inline;
   color: #b3b3b3;
   font-size: 14px;
   margin-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
   border-bottom: 1px solid #f2f2f2;
@@ -247,4 +256,11 @@ h5 {
 }
 .social-list > li:last-child > a {
   border-right: none;
+}
+@media (max-width: 481px) {
+  
+  .location {
+    display: block;
+  }
+
 }
