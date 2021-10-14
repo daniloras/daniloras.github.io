@@ -261,6 +261,9 @@ h5 {
   body {
     background-color: #1c202d;
   }
+  .wrapper-inner {
+    margin-top: 100px;
+  }
   .wrapper::before {
     background-image: none;
     background-color: #1c202d;
